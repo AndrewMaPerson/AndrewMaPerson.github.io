@@ -44,9 +44,32 @@
         td{
             color:grey;
         }
+        #square {
+            width: 200px;
+            height: 200px;
+            background-color: teal;
+            margin:auto;
+
+            position: relative;
+            left: 1000px;
+
+            animation: rotate 3s infinite alternate ease-in-out, slide 1s forwards ease-in-out;
+        }
+
+        @keyframes rotate {
+            to{
+                rotate: 45deg; 
+            }
+        }
+        @keyframes slide {
+            to{
+                left: 0;
+            }
+        }
     </style>
 </head>
 <body>
+    <div id="square"></div>
     <h1 id="orange-text">Politics is interesting and inane.</h1>
     <img src="image\download.png" alt="Obama Hope poster with me instead">
     <img src="https://senatedemocrats.wa.gov/wilson/wp-content/uploads/sites/34/2023/02/20230220_080231aa-847x477.jpg" alt="">
@@ -91,5 +114,6 @@ HOPE poster.</p>
     <address> <br>
         Written by <a href="ama@eastsideprep.org">Andrew Ma</a>.<br>
     </address>
+    <!--hi its me-->
 </body>
 </html>
