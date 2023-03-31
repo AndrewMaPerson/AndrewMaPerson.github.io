@@ -1,0 +1,32 @@
+body{
+    background-color: aliceblue;
+}
+
+.nav {
+    list-style-type: none;
+    background-color: #c7ccdb;  
+    margin:0;
+    padding:0;
+    overflow:hidden;
+
+}
+
+ul.nav li{
+    float: left;
+}
+
+ul.nav li a{
+    display:block; 
+    padding: 8px 16px;
+    color: #2A324B;
+    text-decoration: none; 
+}
+
+ul.nav a:hover{
+    background-color: #767B91;
+    color: black; 
+}
+
+.active {
+    background-color: #F7C59F; 
+}
