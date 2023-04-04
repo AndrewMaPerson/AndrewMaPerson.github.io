@@ -1,5 +1,14 @@
+
+
 body{
     background-color: aliceblue;
+}
+
+#orange-text{
+    color: orange;
+}
+#beige-background{
+    background-color: beige;
 }
 
 .nav {
