@@ -1,3 +1,32 @@
+.nav {
+    list-style-type: none;
+    background-color: #c7ccdb;  
+    margin:0;
+    padding:0;
+    overflow:hidden;
+
+}
+
+ul.nav li{
+    float: left;
+}
+
+ul.nav li a{
+    display:block; 
+    padding: 8px 16px;
+    color: #2A324B;
+    text-decoration: none; 
+}
+
+ul.nav a:hover{
+    background-color: #767B91;
+    color: black; 
+}
+
+.active {
+    background-color: #f9e8db; 
+}
+
 body {
     background-color: grey;
 }
@@ -31,11 +60,37 @@ body {
 
 .main2{
     grid-column: 1 / span 2;
-    grid-row: 4; 
+    grid-row: 5; 
 }
 
 .sidenav{
     grid-column: 3;
-    grid-row 3 / span 2;
+    grid-row: 3 / span 2;
     background-color: red;
+}
+
+.support1{
+    grid-row: 4; 
+    background-color: red;
+}
+
+.support2{
+    grid-row: 4; 
+    background-color: red ;
+}
+
+.grid-container2{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
+}
+
+.obama{
+    grid-column: 1;
+}
+
+.sidetext{
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 1 / span 2
 }
