@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Messaround</title>
+</head>
+<body>
+    <h1>Let's Learn Javascript!</h1>
+    <h2>how do we do onclick events and alerts on an anchor</h2>
+    <a href="https://floretflowers.com" target="_blank" onclick="alert('Warning! You are going to another page that is not this page so sad.')">Flower Website</a>
+
+    <hr>
+    <h2>How do we display and hide texttttt?</h2>
+    <h2>whats mai secret identity</h2>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='Joey Rasin hee hee';">REVEAL!!!</button>
+    <button onclick="document.getElementById('secret').style.display='none'">hide</button> 
+    <hr>
+    <h2>How do we change an image with Javascript?</h2>
+    <img src ="images/pic_bulboff.gif" alt="Bulb off" id="myImage">
+    <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">Bulb ON</button>
+
+    <button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">Bulb OFF</button>
+
+    <p id="alice" style="font-size: 15px;">Hi. I am alice.</p>
+
+    <button onclick="document.getElementById('alice').style.
+    color='red'; document.getElementById('alice').style.
+    fontSize='5px'">Cake - Eat me</button>
+
+    <button onclick="document.getElementById('alice').style.
+    color='blue'; document.getElementById('alice').style.
+    fontSize='50px'">Potion - Drink me</button>
+
+    <button onclick="document.getElementById('alice').style.
+    color='black'; document.getElementById('alice').style.
+    fontSize='15px'">Return to normal</button>
+
+    <hr>
+    <h2>How do we return use input with a function?</h2>
+    <button onclick="askName()">Whats your name man</button>
+    <p id="ask-name"></p>
+
+    <p id="demo">Hey kids</p>
+
+    <button onclick="document.getElementById('demo').style.font = 'italic bold 20px arial,serif';" >Arial!</button>
+
+    <button onclick="document.body.style.backgroundColor = 'pink';">PINK!!!</button>  
+
+    <script>
+        function askName(){
+            let nameParagraph = document.getElementById
+            ("ask-name"); 
+            let name = prompt("Whats your name man?");
+            //lets decide what to do
+            if (name === "Alexander Hamilton"){
+                nameParagraph.innerHTML = "There would've been nothing left to do for someone less astute.";
+            } else{
+                nameParagraph.innerHTML = "Hello, " + name + "! Nice to meet you. You are not a foundning father, probably.";
+            }
+
+        }
+    </script>
+</body>
+</html>
