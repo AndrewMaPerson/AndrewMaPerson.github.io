@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew's muy interesante quiz!</title>
+</head>
+<body>
+    <h1>Welcome to mai quiz 'bout various things?</h1>
+    <h2>First, who are you?</h2>
+    <form action="" id="name-form">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname"><br>
+
+        <label for="mname">Mother's Maiden name</label>
+        <input type="text" name="mname" id="mname"><br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname"><br>
+
+        <label for="age">Age</label>
+        <input type="text" name="age" id="age"><br>
+
+        <label for="snumber">Social Security Number</label>
+        <input type="text" name="snumber" id="snumber">
+    </form>
+    <br>
+    <input type="button" value="SUBMIT" onclick="greet()">
+    <p id="greet">Welcome to the secret society!</p>
+
+    <hr>
+    <h2>Let's play trivia!</h2>
+    <p>How many views does Baby Shark have on Youtube?</p>
+    <p id="trivia-answer"></p>
+    <form action="">
+        <input type="radio" name="trivia1" id="1-billion">
+        <label for="1 billion">1 billion</label><br>
+        <input type="radio" name="trivia1" id="7-billion">
+        <label for="7 billion">7 billion</label><br>
+        <input type="radio" name="trivia1" id="12-billion">
+        <label for="12 billion">12 billion</label><br>
+        <input type="radio" name="trivia1" id="16-billion">
+        <label for="16 billion">16 billion</label><br>
+    </form>
+    <br>
+    <input type="button" value="SUBMIT" onclick="trivia1()">
+
+    <script src="js/game.js"></script>
+</body>
+</html>
