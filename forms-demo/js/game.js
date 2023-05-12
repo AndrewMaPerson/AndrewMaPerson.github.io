@@ -57,3 +57,29 @@ function trivia1(){
 
 
 }
+
+function truths(){
+    //get handle to answer paragraph
+    let truthAnswer = document.getElementById("truthsandlies");
+
+    //get handels and valuyes from radio sellection
+
+    let locks = document.getElementById("locks").checked;
+    let knives = document.getElementById("knives").checked;
+    let pewdiepie = document.getElementById("pewdiepie").checked;
+
+
+    if(locks&&knives&&pewdiepie){
+        truthAnswer.innerHTML = fname + ", you sneaky little sh!t, don't cheat."
+    }
+    else if(locks&&knives){
+        truthAnswer.innerHTML = fname + ", you are correct! Good job!"
+    } 
+    else if(locks||knives){
+        truthAnswer.innerHTML = fname + ", you're close!"
+    }
+    else {
+        truthAnswer.innerHTML = fname + ", you are dumb try again. "
+    }
+
+}
