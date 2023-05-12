@@ -46,13 +46,13 @@ function trivia1(){
         triviaAnswer.innerHTML = fname + ", you are wrong, L you."
     } 
     else if(sevenbillion){
-        triviaAnswer.innerHTML = fname + ", you are wrong, L you."
+        triviaAnswer.innerHTML = fname + ", closer, Despacito has this many."
     }
     else if(twelvebillion){
         triviaAnswer.innerHTML = fname + ", you are right!!! congrats. "
     }
     else if(sixteenbillion){
-        triviaAnswer.innerHTML = fname + ", you are wrong, L you."
+        triviaAnswer.innerHTML = fname + ", you must really love Baby Shark ugh."
     }
 
 
