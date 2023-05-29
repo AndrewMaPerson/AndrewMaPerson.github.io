@@ -5,7 +5,18 @@
     text-align: center;
     margin-bottom: 10px;
     border-radius: 5px;
-  }
+}
+
+.bottomBanner {
+    background-color: #DAA520;
+    color: #333333;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 8px;
+}
 
 .nav {
     list-style-type: none;
@@ -55,6 +66,7 @@ body{
     grid-template-columns:43% 43% 12%;
     grid-gap:10px; 
 }
+
 .box1{
     margin-top: 10px;
     grid-column:1;
@@ -80,10 +92,114 @@ body{
     grid-column:2;
     grid-row: 3;
 }
-
 .sidebox{
+    grid-column:3;
     margin-top: 10px;
     grid-column: 3;
     grid-row: 1 /span 3;
 }
 
+
+/* Grid within a grid, home page*/
+.griditem2 {
+    background-color:#DAA520 ;
+    font-size: 12px;
+    text-align: center;
+}
+.gridcontainer2 {
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+.boxA {
+    grid-column:1;
+    grid-row:1;
+}
+.boxB {
+    grid-column:2;
+    grid-row:1;
+}
+.boxC {
+    grid-column:1;
+    grid-row:2;
+}
+.boxD {
+    grid-column:2;
+    grid-row:2;
+}
+
+/* Code for Menu formatting*/
+.menu {
+    margin-top: 10px;
+    width: 100%;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #8B4513;
+}
+  
+th {
+    background-color: #ffd261;
+    font-weight: bold;
+    color: #333333;
+}
+  
+tr:nth-child(even) {
+    background-color: #F7F1E3;
+}
+  
+tr:hover {
+    background-color: #ef726e;
+    color: #F7F1E3;
+}
+
+/* Reviews!!!*/
+
+.reviews {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .review {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333333;
+  }
+  
+  h2, h3 {
+    color: #333333;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.4;
+  }
+  
+  /* Color Scheme for Reviews!*/
+  body {
+    background-color: #F7F1E3;
+  }
+  
+  h2, h3 {
+    color: #333333;
+  }
+  
+  .review {
+    background-color: #F7F1E3;
+  }
+  
+  .review h3 {
+    color: #DAA520;
+  }
+  
+  .review p {
+    color: #333333;
+  }
+  
