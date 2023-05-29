@@ -1,3 +1,6 @@
+body{
+    font-family: Garamond-Premier-Pro-Regular; 
+}
 .banner {
     background-color: #DAA520;
     color: #333333;
@@ -201,5 +204,9 @@ tr:hover {
   
   .review p {
     color: #333333;
+  }
+
+  .hours{
+    margin-top: 10px;
   }
   
