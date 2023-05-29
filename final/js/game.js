@@ -11,16 +11,16 @@ function trivia1(){
     let sixteenbillion = document.getElementById("16-billion").checked;
 
     if(onebillion){
-        triviaAnswer.innerHTML = fname + ", you are wrong, L you."
+        triviaAnswer.innerHTML = "Not this early!"
     } 
     else if(sevenbillion){
-        triviaAnswer.innerHTML = fname + ", closer, Despacito has this many."
+        triviaAnswer.innerHTML = "Correct! How did you know?"
     }
     else if(twelvebillion){
-        triviaAnswer.innerHTML = fname + ", you are right!!! congrats. "
+        triviaAnswer.innerHTML =  "We've been around longer than this."
     }
     else if(sixteenbillion){
-        triviaAnswer.innerHTML = fname + ", you must really love Baby Shark ugh."
+        triviaAnswer.innerHTML =  "Try again!"
     }
 
 
