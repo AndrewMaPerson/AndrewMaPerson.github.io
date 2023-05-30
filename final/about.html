@@ -7,6 +7,7 @@
     <title>About Us</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/mgc3mpj.css">
+
     <script>
         (function(d) {
           var config = {
@@ -17,7 +18,15 @@
           h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
         })(document);
     </script>
-    <!--The above JS is from Adobe. It's because of East Asian fonts...-->
+    <!--The above JS is from Adobe. It's because of East Asian fonts. They have a lot of symbols, so it's better to get assets as you need them rather than downloading it all.-->
+    <style>
+        body{
+            font-family: "garamond-premier-pro", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #333333;
+        }
+    </style>
 </head>
 <body>
     <div class="banner">
@@ -32,7 +41,7 @@
         <li><a href="location.html">Location and Hours</a></li>
     </ul>
     <h2>Our story</h2>
-    <p>
+    <p id="english">
         Once upon a time, in the bustling city of Aberdeen, two star-crossed lovers embarked on a journey that would transform their lives and captivate the hearts of food enthusiasts for years to come. Li Mei and Chen Wei, hailing from a small village in China, had ventured to America in search of a better future in 2012. However, fate dealt them a difficult hand, as they struggled to find employment in their newfound land. Their dreams of a prosperous life seemed to be slipping away like fleeting shadows. <br><br>
 
         Amidst the relentless job hunt, Li Mei, a radiant soul with a passion for cooking, found solace in her kitchen. Her culinary prowess and profound love for Chinese cuisine ignited a spark in her heart. Chen Wei, a diligent and resourceful man, recognized his beloved's talent and unwavering dedication. He became the pillar of support she needed during those challenging times, encouraging her to pursue her dreams. Together, they concocted a plan to bring the flavors of their homeland to the vibrant streets of Aberdeen.<br><br>
@@ -43,19 +52,44 @@
 
         As time passed, Aberdeen Cafe became more than just a restaurant; it became a testament to the power of love, resilience, and the pursuit of dreams. Li Mei and Chen Wei's love story intertwined with the scents and flavors of their dishes, casting a spell on all who entered. Their tale served as a reminder that even amidst adversity, love and passion have the power to create something truly extraordinary. And so, Aberdeen Cafe continued to flourish, its doors forever open, inviting lovers, dreamers, and food enthusiasts to experience a taste of romance and indulge in the magic of Li Mei and Chen Wei's culinary masterpiece.<br><br>
     </p>
+    <p id="chinese" style="
+    font-family: adobe-fan-heiti-std, sans-serif;
+    font-style: normal; 
+    font-weight: 400;">
+        曾几何时，在繁华的阿伯丁市，两个命运多舛的恋人踏上了一段改变他们生活的旅程，并在未来几年吸引了美食爱好者的心。 2012年, 来自中国小村庄的李梅和陈薇为了寻找更好的未来，踏上了前往美国的征程。然而，命运却给了他们一个难处，他们在新的土地上找不到工作。 他们对富裕生活的梦想似乎像转瞬即逝的影子一样悄悄溜走。
+        <br><br>
+        在无休止的求职过程中，对烹饪充满热情、容光焕发的李梅在厨房里找到了慰藉。 她的厨艺和对中国菜的热爱在她心中点燃了火花。 勤勤恳恳、足智多谋的陈伟，看中了爱人的才华和坚定不移的奉献精神。 在那些充满挑战的时期，他成为她所需要的支持支柱，鼓励她追求自己的梦想。 他们一起制定了一项计划，将他们家乡的风味带到阿伯丁充满活力的街道上。
+        <br><br>
+        2016年, 李梅和陈薇打开了迷人的Aberdeen Cafe的大门。 咖啡厅坐落在城市的中心，散发着浪漫和优雅的氛围。 这对夫妇从他们艰苦的旅程中汲取灵感，为餐厅注入了他们自己的爱情故事，创造了一个激情与卓越烹饪交织在一起的天堂。 秉承他们在陈薇担任工厂管理期间学到的丰田理念，这对夫妇在咖啡馆运营的各个方面灌输了对细节的一丝不苟和对质量的坚定承诺。
+        <br><br>
+        Aberdeen Cafe 很快成为卓越的代名词，以其精品产品和对品味的不妥协承诺而闻名。 李梅的烹饪创作是一首风味交响乐，挑逗着顾客的味蕾，并将他们带到中国充满活力的街道。 菜单上有各式各样的美食，但有三道菜是这家咖啡馆美食中的佼佼者：火辣辣的四川牛肉、生机勃勃的炒西兰花和精美的烧麦。 每一口都证明了 Li Mei 的热情和技艺，让客人为和谐混合的香气和丰富的口味而着迷。
+        <br><br>
+        随着时间的推移, Aberdeen Cafe 不仅仅是一家餐厅； 它证明了爱的力量、韧性和对梦想的追求。 李梅和陈薇的爱情故事与菜品的香味交织在一起，让所有进店的人都为之着迷。 他们的故事提醒我们，即使在逆境中，爱和激情也有力量创造出真正非凡的东西。 于是, Aberdeen Cafe 继续蓬勃发展，永远敞开大门，邀请情侣、梦想家和美食爱好者来体验浪漫的滋味，沉浸在李梅和陈薇烹饪杰作的魔力中。
+    </p>
+
+    <script>
+    document.getElementById('chinese').style.display='none'
+    </script>
+    
+    <button onclick="document.getElementById('english').style.display='block';
+    document.getElementById('chinese').style.display='none'">English</button>
+
+    <button onclick="document.getElementById('chinese').style.display='block';
+    document.getElementById('english').style.display='none'">中文</button>
+
 
     <h2>Fun Triva Question!</h2>
     <p>What year was Aberdeen Cafe founded?</p>
     <p id="trivia-answer"></p>
     <form action="">
-        <input type="radio" name="trivia1" id="1-billion">
-        <label for="1 billion">2015</label><br>
-        <input type="radio" name="trivia1" id="7-billion">
-        <label for="7 billion">2016</label><br>
-        <input type="radio" name="trivia1" id="12-billion">
-        <label for="12 billion">2017</label><br>
-        <input type="radio" name="trivia1" id="16-billion">
-        <label for="16 billion">2018 </label><br>
+        <input type="radio" name="trivia1" id="2015">
+        <label for="2015">2015</label><br>
+        <input type="radio" name="trivia1" id="2016">
+        <label for="2016">2016</label><br>
+        <input type="radio" name="trivia1" id="2017">
+        <label for="2017">2017</label><br>
+        <input type="radio" name="trivia1" id="2018">
+        <label for="2018">2018 </label><br>
     </form>
     <br>
     <input type="button" value="SUBMIT" onclick="trivia1()">

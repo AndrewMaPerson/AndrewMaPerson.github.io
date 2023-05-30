@@ -3,23 +3,23 @@ function trivia1(){
     //get handle to answer paragraph
     let triviaAnswer = document.getElementById("trivia-answer");
 
-    //get handels and valuyes from radio sellection
+    //get handels and values from radio sellection
 
-    let onebillion = document.getElementById("1-billion").checked;
-    let sevenbillion = document.getElementById("7-billion").checked;
-    let twelvebillion = document.getElementById("12-billion").checked;
-    let sixteenbillion = document.getElementById("16-billion").checked;
+    let fifteenSelected = document.getElementById("2015").checked;
+    let sixteenSelected = document.getElementById("2016").checked;
+    let seventeenSelected = document.getElementById("2017").checked;
+    let eighteenSelected = document.getElementById("2018").checked;
 
-    if(onebillion){
+    if(fifteenSelected){
         triviaAnswer.innerHTML = "Not this early!"
     } 
-    else if(sevenbillion){
+    else if(sixteenSelected){
         triviaAnswer.innerHTML = "Correct! How did you know?"
     }
-    else if(twelvebillion){
+    else if(seventeenSelected){
         triviaAnswer.innerHTML =  "We've been around longer than this."
     }
-    else if(sixteenbillion){
+    else if(eighteenSelected){
         triviaAnswer.innerHTML =  "Try again!"
     }
 
